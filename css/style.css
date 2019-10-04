@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.gallery {
+	margin: 10px 50px;
+}
+.gallery img{
+	transition: 1s;
+	padding: 15px;
+	width: 100px;
+}
+.gallery img:hover{
+	filter:grapscale(400%);
+	transform: scale(1.1);
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  background-color: #556A7D;
+}
+
+.photoMarker {
+  font-size: 25px;
+  line-height: 5px;
+  letter-spacing: 0px;
+  margin: 0 0 0 0;
+  padding-top: 25px;
+  padding-left: 25px;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+  overflow: hidden;
+  position: relative;
+  border-style: solid;
+  border-color: grey;
+  border-width: 5px;
+  background-image: url(images/kettlecornbanner.jpg);
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+p {
+  color: white;
+  width: 75%;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Panorama {
+  position: relative;
+}
+
+.phonebooth {
+  padding: 1px;
+}
+
+.pageParagraph {
+  font-size: 18px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.nav-menu {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding: 0px;
+  margin-top: 0px;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  border-style: solid;
+  border-color: grey;
+  border-width: 5px;
+}
+
+.nav-menu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.bottomCaption {
+  border-style: solid;
+  border-color: grey;
+  border-width: 5px;
+  background-color: #333;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
